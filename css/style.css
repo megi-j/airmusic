@@ -18,15 +18,20 @@ ul{
    display: flex;
    width: 400px;
    justify-content: space-between;
+   
+}
+nav{
+    margin-right: 5%;
 }
 li{
    font-weight: lighter;
 }
 .navigation{
     display: flex;
-    width: 600px;
+    /* width: 600px; */
     justify-content: space-between;
     align-items: center;
+    
 }
 .navigation button {
     border-radius: 37px;
@@ -92,18 +97,104 @@ li:hover{
     top: 0;
     left: 0;
 }
-.second-section div{
+.greatest-not{
     position: absolute;
     top: 20%;   
     left: 35%;
     width: 30%;
 }
-.second-section div h3{
+.greatest-not h3{
     font-size: 35px;
     color: #fff;
     margin-left: 20%;
     margin-bottom: 5%;
 }
-.second-section div p{
+.greatest-not p{
     color: #fff;
+}
+
+.air-box{
+    width: 626px;
+    height: 800px;
+}
+.air-box img{
+    width: 100%;
+}
+
+/* 3rd section starts */
+.third-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F8FAFE;
+    padding-bottom: 200px;
+    padding-top: 267px;
+}
+.third-section h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.main-div{
+    width: 80%;
+    margin: 0 auto;
+}
+.sm-box{
+    width: 420px;
+    height: 446px;
+    background-color: #fff;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    
+}
+.first-box {
+    margin-bottom: 50px;
+    
+}
+.first-box, .second-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.first-box img{
+    width: 67px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.sm-box h5{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 4th section */
+.fourth-section {
+    width: 100%;
+    padding-top: 189px;
+}
+.fourth-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.form-div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+select{
+    display: block;
+    width: 500px;
+    height: 68px;
+    border-radius: 11px;
+    margin-bottom: 27px;
 }
